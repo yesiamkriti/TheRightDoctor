@@ -2,7 +2,8 @@
 
 A full-stack CRUD application that allows users to **Add**, **Edit**, **List**, and **Delete** people using:
 
-- **Frontend:** Angular (Standalone Components, Angular Router, HttpClient)
+- **Frontend (angular verion:8):** Angular (moduler Components, Angular Router, HttpClient)
+- **Frontend latest:** Angular (Standalone Components, Angular Router, HttpClient)
 - **Backend:** Node.js + Express
 - **Database:** MongoDB
 
@@ -19,6 +20,7 @@ A full-stack CRUD application that allows users to **Add**, **Edit**, **List**, 
 ---
 
 ## 📁 Directory Structure
+
 ```
 THE RIGHT DOCTOR/
 │
@@ -32,22 +34,35 @@ THE RIGHT DOCTOR/
 │ │ └── person.routes.js
 │ └── package.json
 │
-├── angular-people-app/
-│ ├── src/
-│ │ ├── app/
-│ │ │ ├── components/
-│ │ │ │ ├── add-person/
-│ │ │ │ ├── edit-person/
-│ │ │ │ ├── delete-person/
-│ │ │ │ └── list-people/
-│ │ │ ├── services/
-│ │ │ ├── app.ts
-│ │ │ ├── app.routes.ts
-│ │ │ ├── app.html
-│ │ │ ├── app.css
-│ │ └── main.ts
-│ ├── index.html
-│ └── styles.css
+frontend(version 8)/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── add-person/
+│   │   │   │   ├── add-person.component.ts
+│   │   │   │   ├── add-person.component.html
+│   │   │   │   └── add-person.component.css
+│   │   │   ├── edit-person/
+│   │   │   │   ├── edit-person.component.ts
+│   │   │   │   ├── edit-person.component.html
+│   │   │   │   └── edit-person.component.css
+│   │   │   ├── delete-person/
+│   │   │   │   ├── delete-person.component.ts
+│   │   │   │   ├── delete-person.component.html
+│   │   │   │   └── delete-person.component.css
+│   │   │   └── list-people/
+│   │   │       ├── list-people.component.ts
+│   │   │       ├── list-people.component.html
+│   │   │       └── list-people.component.css
+│   │   ├── services/
+│   │   │   └── person.service.ts
+│   │   ├── app.module.ts
+│   │   └── app.component.ts / html / css
+│   └── index.html
+├── angular.json
+├── package.json
+|
+├── frontend(latest)/
 │
 └── README.md
 ```
