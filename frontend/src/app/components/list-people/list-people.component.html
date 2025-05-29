@@ -1,0 +1,21 @@
+<a class="btn btn-primary mb-3" routerLink="/add">Add Person</a>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th><th>Age</th><th>Gender</th><th>Mobile</th><th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of people">
+      <td>{{ person.name }}</td>
+      <td>{{ person.age }}</td>
+      <td>{{ person.gender }}</td>
+      <td>{{ person.mobile }}</td>
+      <td>
+        <button class="btn btn-info btn-sm" (click)="onEdit(person._id)">Edit</button>
+        <button class="btn btn-danger btn-sm" (click)="onDelete(person._id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

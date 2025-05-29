@@ -1,0 +1,8 @@
+<h2>Add Person</h2>
+<form (ngSubmit)="onSubmit()" #personForm="ngForm">
+  <input class="form-control" name="name" [(ngModel)]="person.name" placeholder="Name" required />
+  <input class="form-control" name="age" [(ngModel)]="person.age" placeholder="Age" required />
+  <input class="form-control" name="gender" [(ngModel)]="person.gender" placeholder="Gender" required />
+  <input class="form-control" name="mobile" [(ngModel)]="person.mobile" placeholder="Mobile" required />
+  <button type="submit" class="btn btn-success mt-2">Add</button>
+</form>
