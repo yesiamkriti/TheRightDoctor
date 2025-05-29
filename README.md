@@ -10,11 +10,11 @@ A full-stack CRUD application that allows users to **Add**, **Edit**, **List**, 
 
 ## 🛠️ Tech Stack
 
-| Layer     | Technology           |
-|-----------|----------------------|
-| Frontend  | Angular (v15+ standalone components) |
-| Backend   | Node.js, Express     |
-| Database  | MongoDB              |
+| Layer    | Technology                           |
+| -------- | ------------------------------------ |
+| Frontend | Angular (v15+ standalone components) |
+| Backend  | Node.js, Express                     |
+| Database | MongoDB                              |
 
 ---
 
@@ -48,7 +48,8 @@ THE RIGHT DOCTOR/
 │ │ └── main.ts
 │ ├── index.html
 │ └── styles.css
-|__README.md
+│
+└── README.md
 
 ---
 
@@ -75,6 +76,7 @@ node server.js
 # 🌐 Backend runs at: http://localhost:5000
 # 📌 MongoDB: Make sure your MongoDB server is running locally on default port 27017. You can modify the DB connection in server.js.
 ```
+
 | Method | Endpoint         | Description         |
 | ------ | ---------------- | ------------------- |
 | GET    | /api/person      | Get all people      |
@@ -83,13 +85,13 @@ node server.js
 | DELETE | /api/person/\:id | Delete person by ID |
 
 {
-  "name": "John Doe",
-  "age": 30,
-  "gender": "Male",
-  "mobile": "1234567890"
+"name": "John Doe",
+"age": 30,
+"gender": "Male",
+"mobile": "1234567890"
 }
 
- UI Features
+UI Features
 Home (List People)
 
 Add Person
@@ -111,4 +113,3 @@ Create your branch (git checkout -b feature)
 Commit your changes
 
 Push and create a PR
-
