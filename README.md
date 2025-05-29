@@ -19,7 +19,7 @@ A full-stack CRUD application that allows users to **Add**, **Edit**, **List**, 
 ---
 
 ## 📁 Directory Structure
-
+```
 THE RIGHT DOCTOR/
 │
 ├── backend/
@@ -50,7 +50,7 @@ THE RIGHT DOCTOR/
 │ └── styles.css
 │
 └── README.md
-
+```
 
 ## 🚀 Getting Started
 
