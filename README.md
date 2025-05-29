@@ -1,4 +1,4 @@
-# 👥 Angular People Management App (Angular + Node.js + MongoDB)
+# 👥 Angular People Management App (Angular 8/ latest + Node.js + MongoDB)
 
 A full-stack CRUD application that allows users to **Add**, **Edit**, **List**, and **Delete** people using:
 
@@ -13,6 +13,7 @@ A full-stack CRUD application that allows users to **Add**, **Edit**, **List**, 
 
 | Layer    | Technology                           |
 | -------- | ------------------------------------ |
+| Frontend | Angular (v18+ moduler components) |
 | Frontend | Angular (v15+ standalone components) |
 | Backend  | Node.js, Express                     |
 | Database | MongoDB                              |
