@@ -51,7 +51,6 @@ THE RIGHT DOCTOR/
 │
 └── README.md
 
----
 
 ## 🚀 Getting Started
 
