@@ -76,7 +76,8 @@ git clone https://github.com/yesiamkriti/TheRightDoctor.git
 cd TheRightDoctor
 
 # 🔧 Frontend Setup (Angular)
-cd frontend
+cd frontend_latest #prefered for backend test
+# or cd frontend
 npm install
 ng serve
 # 🌐 Frontend runs at: http://localhost:4200
